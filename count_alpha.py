@@ -1,0 +1,5 @@
+string = input("enter a string \t")
+str = input("enter an alphabet \t")
+string = string.lower()
+print(f"string length is \t {len(string)}")
+print(f"alphabet count is \t {string.count(str)}")
